@@ -8,7 +8,7 @@ Book* book_add(){
 	Book *newbook;
 	newbook=(Book *)malloc(sizeof(Book));
 	
-	printf("Enter the title : "); scanf("%s",temp);
+	printf("NEW BOOK ADDITION\nEnter the title : "); scanf("%s",temp);
 	strcpy(newbook->title,temp);
 	printf("Enter author name : "); scanf("%s",temp);
 	strcpy(newbook->auth,temp);

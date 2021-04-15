@@ -13,12 +13,12 @@ int main(){
 		printf("\nSelect an operation to perform : ");
 		scanf("%d",&ch);
 		switch(ch){
-			case 1:book_issue(); printf("Successful\n"); break;
-			case 2:book_return(); printf("Successful\n"); break;
+			case 1:printf("BOOK ISSUE\n");book_issue(); printf("Successful\n"); break;
+			case 2:printf("BOOK RETURN\n");book_return(); printf("Successful\n"); break;
 			
-			case 3:printf("Enter access number : "); scanf("%d",&acc);
+			case 3:printf("BOOK AVAILABILITY\nEnter access number : "); scanf("%d",&acc);
 			       book_avail(acc); break;
-			case 4:printf("Enter member ID : "); scanf("%d",&temp_ID); 
+			case 4:printf("MEMBER DETAILS\nEnter member ID : "); scanf("%d",&temp_ID); 
 			       mem_detail(temp_ID);break;
 			
 			case 5:mem_add(); printf("Member added successfully\n"); break;
