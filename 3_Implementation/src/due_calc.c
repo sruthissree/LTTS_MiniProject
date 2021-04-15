@@ -1,7 +1,7 @@
 #include "lib_mgmt.h"
-int overdue(int b[]){
+int overdue(int a[]){
 	
-	extern int a[3];
+	extern int b[3];
 	extern int month;
 	extern time_t curr_time;
     extern char* curr_time_string;

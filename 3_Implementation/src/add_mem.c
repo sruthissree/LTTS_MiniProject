@@ -2,7 +2,8 @@
 Member* mem_add(){
 	extern char temp[20];
 	extern int ID;
-	extern Member *newmem,*mem_ptr=member_list;
+	extern Member *newmem,*mem_ptr,*member_list;
+	mem_ptr=member_list;
 	newmem=(Member*)malloc(sizeof(Member));
 	printf("Enter the name : ");
 	scanf("%s",temp);

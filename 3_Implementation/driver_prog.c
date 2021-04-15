@@ -1,6 +1,6 @@
 #include "lib_mgmt.h"
 
-int curr_date[3]={0};
+int b[3]={0};
 Book *books_list=NULL,*newbook=NULL,*book_ptr=NULL;
 Member *member_list=NULL,*newmem=NULL,*mem_ptr=NULL,*ptr=NULL;
 

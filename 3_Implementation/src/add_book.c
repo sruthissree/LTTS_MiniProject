@@ -2,7 +2,10 @@
 Book* book_add(){
 	char temp[20]; 
 	int acc;
-	Book *newbook,*book_ptr=books_list;
+	extern Book *books_list;
+	extern Book *book_ptr;
+	book_ptr=books_list;
+	Book *newbook;
 	newbook=(Book *)malloc(sizeof(Book));
 	
 	printf("Enter the title : "); scanf("%s",temp);

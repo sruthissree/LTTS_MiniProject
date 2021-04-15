@@ -97,12 +97,12 @@ void mem_detail(int temp_ID);
  * @brief 
  * 
  */
-void mem_add();
+Member* mem_add();
 
 /**
  * @brief 
  * 
  */
-void book_add();
+Book* book_add();
 
 #endif
