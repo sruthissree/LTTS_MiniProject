@@ -61,11 +61,8 @@ int overdue(int b[]){
 	else if(!strcmp(mon,"Dec")){
 		month=12;
 	}
-	printf("%d %d %d\n",date,month,year);
-	a[0]=date;
+
 	a[1]=month;
-	a[2]=year;
-	
 	
 	if(a[2]<b[2]){
 		return 1;
