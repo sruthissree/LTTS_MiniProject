@@ -23,8 +23,6 @@ int main()
   UNITY_BEGIN();
   
   RUN_TEST(test_add_book);
-  RUN_TEST(test_add_mem);
-  
   printf("Enter the existing acc. no\n");
   scanf("%d",&var);
   RUN_TEST(test_get_book);
@@ -32,6 +30,7 @@ int main()
   scanf("%d",&var);
   RUN_TEST(test_get_book2);
   
+  RUN_TEST(test_add_mem);
   printf("Enter the existing ID no\n");
   scanf("%d",&var);
   RUN_TEST(test_get_mem);
