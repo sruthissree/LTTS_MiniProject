@@ -3,7 +3,7 @@ void mem_detail(int temp_ID){
 	extern Member *mem_ptr,*member_list;
 	mem_ptr=member_list;
 	extern Book *book_ptr;
-	extern int i;
+	int i;
 	mem_ptr=get_mem(temp_ID);
 	if(!mem_ptr)
 	    return;

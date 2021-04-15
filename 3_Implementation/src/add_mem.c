@@ -1,6 +1,6 @@
 #include "lib_mgmt.h"
 Member* mem_add(){
-	extern char temp[20];
+	char temp[20];
 	extern int ID;
 	extern Member *newmem,*mem_ptr,*member_list;
 	mem_ptr=member_list;
