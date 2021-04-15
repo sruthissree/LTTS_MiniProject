@@ -1,4 +1,4 @@
-
+#include "lib_mgmt.h"
 Member* mem_add(){
 	extern char temp[20];
 	extern int ID;

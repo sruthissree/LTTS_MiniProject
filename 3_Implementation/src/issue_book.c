@@ -1,4 +1,4 @@
-
+#include "lib_mgmt.h"
 void book_issue(){
 	extern int mem_id,i,issue_acc,due_date[3];
 	extern Book *book_ptr;

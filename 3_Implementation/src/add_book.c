@@ -1,4 +1,4 @@
-
+#include "lib_mgmt.h"
 Book* book_add(){
 	char temp[20]; 
 	int acc;

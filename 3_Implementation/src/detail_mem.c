@@ -1,4 +1,4 @@
-
+#include "lib_mgmt.h"
 void mem_detail(int temp_ID){
 	extern Member *mem_ptr=member_list;
 	extern Book *book_ptr;

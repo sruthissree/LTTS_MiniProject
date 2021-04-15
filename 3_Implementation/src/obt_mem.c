@@ -2,7 +2,7 @@
 ID is unique for each member node.
 If ID is not found, 
 */
-
+#include "lib_mgmt.h"
 Member* get_mem(int ID){
 	extern  Member* mem_ptr;
 	Member *ptr=member_list;

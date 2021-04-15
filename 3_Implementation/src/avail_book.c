@@ -1,4 +1,4 @@
-
+#include "lib_mgmt.h"
 void book_avail(int temp_acc){
 	extern Book *book_ptr=get_book(temp_acc);
 	if(book_ptr==NULL)
