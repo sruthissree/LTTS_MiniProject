@@ -1,4 +1,4 @@
-PROJ_NAME = Complex_Calculator
+PROJ_NAME = Library
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
 BUILD_DIR = Build

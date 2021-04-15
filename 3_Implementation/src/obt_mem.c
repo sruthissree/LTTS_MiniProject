@@ -2,8 +2,9 @@
 ID is unique for each member node.
 If ID is not found, 
 */
-extern  Member* mem_ptr;
+
 Member* get_mem(int ID){
+	extern  Member* mem_ptr;
 	Member *ptr=member_list;
 	while(ptr!=NULL && ptr->id!=ID){
 		ptr=ptr->next;

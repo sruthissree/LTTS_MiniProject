@@ -1,12 +1,12 @@
 #include "lib_mgmt.h"
 
-Member *member_list=NULL;
-Book *books_list=NULL;
-int curr_date[3];
+int curr_date[3]={0};
+Book *books_list=NULL,*newbook=NULL,*book_ptr=NULL;
+Member *member_list=NULL,*newmem=NULL,*mem_ptr=NULL,*ptr=NULL;
 
 int main(){
 	int ch=0,acc,temp_ID,copies;
-	char temp[20];
+	char temp[20]="";
 	printf("MENU \n");
 	printf("1. Book issue\n2. Book return\n3. Check book availability\n4. Check member details\n5. Add a new member\n6. Add a new book\n7. Exit\n");
 	while(1){
