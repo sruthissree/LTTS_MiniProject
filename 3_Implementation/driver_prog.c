@@ -8,7 +8,7 @@ int main(){
 	int ch=0,acc,temp_ID,copies;
 	char temp[20]="";
 	printf("MENU \n");
-	printf("1. Book issue\n2. Book return\n3. Check book availability\n4. Check member details\n5. Add a new member\n6. Add a new book\n7. Exit\n");
+	printf("1. Book issue\n2. Book return\n3. Check book availability\n4. Check member details\n5. Add a new member\n6. Add a new book\n7. View all books\n8. View all members\n9. Exit\n");
 	while(1){
 		printf("\nSelect an operation to perform : ");
 		scanf("%d",&ch);
@@ -24,8 +24,12 @@ int main(){
 			case 5:mem_add(); printf("Member added successfully\n"); break;
 			
 			case 6:book_add(); printf("Book added successfully\n"); break;
+			
+			case 7:printf("LTTS LIBRARY\n"); disp_books(); break;
+			
+			case 8:printf("LTTS LIBRARY MEMBERS\n"); disp_mem(); break;
 			       
-			case 7:printf("Exiting program"); exit(0);
+			case 9:printf("Exiting program"); exit(0);
 			
 			default:printf("Invalid choice. Try again");
 		}

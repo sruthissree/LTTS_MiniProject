@@ -105,4 +105,16 @@ Member* mem_add();
  */
 Book* book_add();
 
+/**
+ * @brief 
+ * 
+ */
+void disp_books();
+
+/**
+ * @brief 
+ * 
+ */
+void disp_mem();
+
 #endif
