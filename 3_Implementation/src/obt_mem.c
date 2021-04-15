@@ -5,7 +5,7 @@ If ID is not found,
 #include "lib_mgmt.h"
 Member* get_mem(int ID){
 	extern Member *member_list;
-	extern  Member* mem_ptr;
+	extern  Member* mem_ptr=NULL;
 	Member *ptr=member_list;
 	while(ptr!=NULL && ptr->id!=ID){
 		ptr=ptr->next;
