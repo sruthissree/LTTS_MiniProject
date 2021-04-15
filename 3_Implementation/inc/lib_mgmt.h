@@ -1,7 +1,7 @@
 /**
  * @file lib_mgmt.h
  * @author Sruthissree R (sruthissreerangha2000@gmail.com)
- * @brief 
+ * @brief This header contains the structure for two types of nodes and the prototypes for the functions defined in the source
  * @version 0.1
  * @date 2021-04-15
  * 

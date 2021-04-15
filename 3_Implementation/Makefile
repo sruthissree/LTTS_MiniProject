@@ -7,7 +7,7 @@ SRC = driver_prog.c\
 src/add_book.c src/add_mem.c src/avail_book.c src/detail_mem.c src/due_calc.c src/issue_book.c src/obt_book.c src/obt_mem.c src/return_book.c
 
 
-TEST_SRC = test/test_complex_calculator.c\
+TEST_SRC = test/test_library.c\
 unity/unity.c
 
 INC = -Iinc\
