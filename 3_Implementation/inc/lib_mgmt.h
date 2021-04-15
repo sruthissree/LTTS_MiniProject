@@ -35,4 +35,73 @@ typedef struct member{
 	struct member *next;
 }Member;
 
+/**
+ * @brief Get the mem object
+ * 
+ * @param ID 
+ * @return Member* 
+ */
+Member* get_mem(int ID);
+
+/**
+ * @brief Get the book object
+ * 
+ * @param acc 
+ * @return Book* 
+ */
+
+/**
+ * @brief Get the book object
+ * 
+ * @param acc 
+ * @return Book* 
+ */
+Book* get_book(int acc);
+
+/**
+ * @brief 
+ * 
+ * @param b 
+ * @return int 
+ */
+int overdue(int b[]);
+
+/**
+ * @brief 
+ * 
+ * @param temp_acc 
+ */
+void book_avail(int temp_acc);
+
+/**
+ * @brief 
+ * 
+ */
+void book_issue();
+
+/**
+ * @brief 
+ * 
+ */
+void book_return();
+
+/**
+ * @brief 
+ * 
+ * @param temp_ID 
+ */
+void mem_detail(int temp_ID);
+
+/**
+ * @brief 
+ * 
+ */
+void mem_add();
+
+/**
+ * @brief 
+ * 
+ */
+void book_add();
+
 #endif
