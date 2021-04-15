@@ -1,5 +1,6 @@
 void book_return(){
-	extern int mem_id,book_acc, i=0,j=0,flag=0;
+	extern int mem_id,book_acc;
+	int i=0,j=0,flag=0;
 	extern Book *book_ptr;
 	extern Member *mem_ptr;
 	
