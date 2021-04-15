@@ -25,9 +25,9 @@ int main(){
 			
 			case 6:book_add(); printf("Book added successfully\n"); break;
 			
-			case 7:printf("LTTS LIBRARY\n"); disp_books(); break;
+			case 7:printf("%25s\n","LTTS LIBRARY"); disp_books(); break;
 			
-			case 8:printf("LTTS LIBRARY MEMBERS\n"); disp_mem(); break;
+			case 8:printf("%25s\n","LTTS LIBRARY MEMBERS"); disp_mem(); break;
 			       
 			case 9:printf("Exiting program"); exit(0);
 			
