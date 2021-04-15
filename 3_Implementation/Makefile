@@ -3,7 +3,9 @@ TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
 BUILD_DIR = Build
 
-SRC = src/complex_calculator.c
+SRC = driver_prog.c\
+src/add_book.c src/add_mem.c src/avail_book.c src/detail_mem.c src/due_calc.c src/issue_book.c src/obt_book.c src/obt_mem.c src/return_book.c
+
 
 TEST_SRC = test/test_complex_calculator.c\
 unity/unity.c
