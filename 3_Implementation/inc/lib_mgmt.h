@@ -11,6 +11,7 @@
 #ifndef __LIB_MGMT_H__
 #define __LIB_MGMT_H__
 
+#include<stddef.h>
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
