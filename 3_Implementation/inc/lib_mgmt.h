@@ -51,16 +51,10 @@ Member* get_mem(int ID);
  * @return Book* 
  */
 
-/**
- * @brief Get the book object
- * 
- * @param acc 
- * @return Book* 
- */
 Book* get_book(int acc);
 
 /**
- * @brief 
+ * @brief determine whether a book is past due or not
  * 
  * @param b 
  * @return int 
@@ -68,51 +62,51 @@ Book* get_book(int acc);
 int overdue(int b[]);
 
 /**
- * @brief 
+ * @brief check whether a book is available or not using access number
  * 
  * @param temp_acc 
  */
 void book_avail(int temp_acc);
 
 /**
- * @brief 
+ * @brief issuing a specific book to a specific member
  * 
  */
 void book_issue();
 
 /**
- * @brief 
+ * @brief  funtion is called when a member returns the book. Member ID and book access number are obtained inside the function
  * 
  */
 void book_return();
 
 /**
- * @brief 
+ * @brief display the details of a member, including the number of library books in possession
  * 
  * @param temp_ID 
  */
 void mem_detail(int temp_ID);
 
 /**
- * @brief 
+ * @brief adding a new member. Details of the member is obtained inside the function
  * 
  */
 Member* mem_add();
 
 /**
- * @brief 
+ * @brief adding a new book. Details of the book is obtained inside the function
  * 
  */
 Book* book_add();
 
 /**
- * @brief 
+ * @brief Display all the library books with their access number and availability
  * 
  */
 void disp_books();
 
 /**
- * @brief 
+ * @brief Display the details of all the members with their ID numbers
  * 
  */
 void disp_mem();
