@@ -1,5 +1,6 @@
 # LTTS_MiniProject
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/33986a78696c40a2b9a7a8410a2241f2)](https://app.codacy.com/gh/sruthissree/LTTS_MiniProject?utm_source=github.com&utm_medium=referral&utm_content=sruthissree/LTTS_MiniProject&utm_campaign=Badge_Grade_Settings)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/d2fd5659418743ef9b6904c17e1041f9)](https://www.codacy.com/gh/sruthissree/LTTS_MiniProject/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sruthissree/LTTS_MiniProject&amp;utm_campaign=Badge_Grade)    [![C/C++ CI](https://github.com/sruthissree/LTTS_MiniProject/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/sruthissree/LTTS_MiniProject/actions/workflows/c-cpp.yml) [![CI-Coverage](https://github.com/sruthissree/LTTS_MiniProject/actions/workflows/code%20coverage.yml/badge.svg)](https://github.com/sruthissree/LTTS_MiniProject/actions/workflows/code%20coverage.yml) 
 
 [![Unit testing](https://github.com/sruthissree/LTTS_MiniProject/actions/workflows/unit%20test.yml/badge.svg)](https://github.com/sruthissree/LTTS_MiniProject/actions/workflows/unit%20test.yml)
