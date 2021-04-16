@@ -1,3 +1,13 @@
+/**
+ * @file detail_mem.c
+ * @author Sruthissree R (sruthissreerangha2000@gmail.com)
+ * @brief function to display the details of a membr by their ID
+ * @version 0.1
+ * @date 2021-04-16
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "lib_mgmt.h"
 void mem_detail(int temp_ID){
 	extern Member *mem_ptr,*member_list;

@@ -1,3 +1,13 @@
+/**
+ * @file test_library.c
+ * @author Sruthissree R (sruthissreerangha2000@gmail.com)
+ * @brief test program to run the untiy test cases
+ * @version 0.1
+ * @date 2021-04-16
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "unity.h"
 #include "lib_mgmt.h"
 #define PROJECT_NAME    "Library"

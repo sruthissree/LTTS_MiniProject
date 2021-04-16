@@ -1,4 +1,15 @@
+/**
+ * @file return_book.c
+ * @author Sruthissree R (sruthissreerangha2000@gmail.com)
+ * @brief function to return a book back to the library
+ * @version 0.1
+ * @date 2021-04-16
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "lib_mgmt.h"
+
 void book_return(){
 	int mem_id,book_acc;
 	int i=0,flag=0;

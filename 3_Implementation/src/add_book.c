@@ -1,3 +1,13 @@
+/**
+ * @file add_book.c
+ * @author Sruthissree R (sruthissreerangha2000@gmail.com)
+ * @brief function to add a new book to the library databse. Details of the book is obtained inside the function
+ * @version 0.1
+ * @date 2021-04-16
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "lib_mgmt.h"
 Book* book_add(){
 	char temp[20]; 

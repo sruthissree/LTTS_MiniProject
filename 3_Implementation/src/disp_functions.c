@@ -1,5 +1,14 @@
+/**
+ * @file detail_mem.c
+ * @author Sruthissree R (sruthissreerangha2000@gmail.com)
+ * @brief functions to display the details of all members and all books in the library
+ * @version 0.1
+ * @date 2021-04-16
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #include "lib_mgmt.h"
-
 void disp_books(){
 	extern Book *books_list, *book_ptr;
 	book_ptr=books_list;
