@@ -1,12 +1,12 @@
 #include "lib_mgmt.h"
 Member* mem_add(){
-	char temp[20];
+	char temp[20]="";
 	extern int ID;
 	extern Member *newmem,*mem_ptr,*member_list;
 	mem_ptr=member_list;
 	newmem=(Member*)malloc(sizeof(Member));
 	printf("NEW MEMBER ADDITION\nEnter the name : ");
-	scanf("%s",temp);
+	scanf("%19s",temp);
 	strcpy(newmem->name,temp);
 	printf("Enter ID : ");
 	scanf("%d",&newmem->id);

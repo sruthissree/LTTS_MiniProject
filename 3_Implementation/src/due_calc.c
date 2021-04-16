@@ -2,7 +2,7 @@
 int overdue(int a[]){
 	
 	extern int b[3];
-    int month;
+    int month=1;
 	time_t curr_time;
     char* curr_time_string;
     char mon[4];
